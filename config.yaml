@@ -1,0 +1,16 @@
+DataFiles:
+  - class_name: OurWorldInData
+    table_name: owid_covid
+    key_column: iso_code
+    path: data/owid-covid-data.csv
+  
+  - class_name: BiweeklyCasesPerMil
+    table_name: biweekly_cases_per_mil
+    key_column: date
+    path: data/cases_deaths/biweekly_cases_per_million.csv
+  
+  - class_name: BiweeklyCases
+    table_name: biweekly_cases
+    key_column: date
+    path: data/cases_deaths/biweekly_cases.csv
+  

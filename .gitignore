@@ -1,0 +1,8 @@
+# ignore data files
+data/
+
+# ignore .env
+.env
+
+# ignore lock files
+*.lock
